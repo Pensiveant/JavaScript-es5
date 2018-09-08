@@ -1,12 +1,9 @@
-import _ from "lodash";
+var createSingleObject = require("./object/createSingleObject.js");
 
 
-//向文档中加入一个div，内容为hello webpack
-function component() {
-    var element=document.createElement("div");
-    element.innerHTML=_.join(["hello","webpack"]," ");
-    return element;
-}
 
-document.body.appendChild(component());
-connole.error("test");
+
+var p = document.createElement("p");
+p.innerHTML = "hello es5!";
+var rootDivEle = document.getElementById("root");
+rootDivEle.appendChild(p);

@@ -8,6 +8,8 @@
 + 代码错误定位到源代码
 ##### 运行
 + 编译
+
     npm run build
 + 运行 
-    npm start
+
+  npm start
