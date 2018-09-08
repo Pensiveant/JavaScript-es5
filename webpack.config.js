@@ -12,7 +12,8 @@ module.exports = {
     plugins:[
         new CleanWepackPlugin(["dist"]),
         new HtmlWebpackPlugin({
-            title:"起步"
+            title:"es5 study",
+            template:"./src/index.html"
         })
     ],
     devtool:"inline-source-map",

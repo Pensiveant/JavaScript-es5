@@ -1,12 +1,12 @@
 {
-  "name": "webpack-demo1",
+  "name": "es5-study",
   "version": "1.0.0",
-  "description": "webpack官方示例学习",
+  "description": "es5-学习",
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "watch":"webpack-dev-server --open"
+    "start":"webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
