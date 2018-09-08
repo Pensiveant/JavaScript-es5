@@ -1,0 +1,4 @@
+# 排除编译后的文件
+/dist/
+# 排除npm安装的包
+/node_modules/
