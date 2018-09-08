@@ -1,4 +1,6 @@
-var createSingleObject = require("./object/createSingleObject.js");
+// var type = require("./type/typeof");
+// var createSingleObject = require("./object/createSingleObject.js");
+require("./object/objectAttributeOprate");
 
 
 
