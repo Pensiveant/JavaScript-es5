@@ -8,3 +8,7 @@
 function checkPlaindrom(str){
     return str==str.split("").reverse().join("");
 }
+
+
+var str="abcde";
+console.log(str.reverse());
