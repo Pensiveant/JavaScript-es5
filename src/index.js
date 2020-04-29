@@ -3,8 +3,10 @@
 // require("./object/objectAttributeOprate");
 //  require("./object/objectAttribute");
 // require("./function/closures");
+// require("./function/this");
 // require("./string/stringOporate");
-require("./array/arrayOporate");
+// require("./array/arrayOporate");
+require("./variable/index4");
 
 var p = document.createElement("p");
 p.innerHTML = "hello es5!";
